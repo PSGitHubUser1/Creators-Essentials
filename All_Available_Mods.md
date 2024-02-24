@@ -30,7 +30,7 @@
      - FixContainersLotExploit
      - GeckoAnimFix
      - Complete Config
-     - Memory Leak Fix
+     - Memory Leak Fix [Not Properly, just imported it by 'modCompileOnly' because it was not working]
   - PerfMods
      - Sodium
      - FerriteCore
