@@ -1,0 +1,61 @@
+name: Bug report
+description: Create a report to help us improve (search for duplicates first)
+labels: bug
+body:
+ - type: checkboxes
+   attributes:
+    label: Issue tracker rule checks (please read carefully)
+    options:
+     - label: "I have checked that my problem <a href='https://github.com/PSGitHubUser1/Creators-Essentials/issues' target='_blank'>is not already reported</a>"
+       required: true
+     - label: "I have checked that my problem is not already fixed"
+       required: true
+ - type: textarea
+   attributes:
+    label: Issue description
+    description: Explain clearly and unambiguously what went wrong
+    placeholder: |
+     Tell us here about the bug/problem
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: How to reproduce this issue?
+    description: Try to explain what you did for the bug to occur. A good explanation of steps to reproduce helps us locate the bug faster. If applicable, add screenshots to help explain your problem.
+    placeholder: |
+      Step 1: ...
+      Step 2: ...
+      ... 
+   validations:
+     required: true
+ - type: dropdown
+   attributes:
+    label: Operating system
+    description: Which operating system do you use with MCreator?
+    options:
+     - Windows
+     - macOS
+     - Linux
+     - Other (Tell Specs too)
+   validations:
+     required: true
+ - type: textarea
+   attributes:
+    label: Details
+    description: To understand the issue, we need some details of your setup & system
+    placeholder: |
+      MCreator version (*): [2023.4 ...]
+      Generator type (*): [fabric-1.20.1 / ...]
+      Fabric Generator version (*): [fabric-1.8.1 / fabric-1.8.2 / ...]
+      CE version: [fabric-1.6.2 / fabric-1.6.3 / ...]
+      
+   validations:
+     required: true
+ - type: textarea
+   attributes:
+    label: Logs
+    description: 
+    placeholder: |
+      Although, I don't really know how to code still I'll try my best [example_log.txt]
+   validations:
+    required: false
