@@ -48,7 +48,7 @@ body:
       Generator type (*): [fabric-1.20.1 / ...]
       Fabric Generator version (*): [fabric-1.8.1 / fabric-1.8.2 / ...]
       CE version: [fabric-1.6.2 / fabric-1.6.3 / ...]
-- type: textarea
+ - type: textarea
    attributes:
     label: Workspace
     description: Please try to provide a workspace
