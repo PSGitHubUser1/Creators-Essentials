@@ -1,0 +1,18 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+        maven {
+            url "https://cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    
+    dependencies {
+          modImplementation "curse.maven:balm-531761:7087431" // 1.21.8    
+    }
+  update_files:
+    - ~
+name: "Balm"
