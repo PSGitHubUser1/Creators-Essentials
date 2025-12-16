@@ -8,7 +8,7 @@ fabric-1.21.8:
                 includeGroup "curse.maven"
           }
       }
-     }
+    }
     
     dependencies {
        modImplementation "curse.maven:lambdynamiclights-393442:7306479" // 1.21.8

@@ -8,7 +8,6 @@ fabric-1.21.8:
                 includeGroup "curse.maven"
             }
         }
-      maven { url = 'https://maven.fabricmc.net' }
     }
     
     dependencies {
@@ -16,8 +15,8 @@ fabric-1.21.8:
           // modImplementation "curse.maven:geckolib-388172:6835123" // 1.21.8
           // modImplementation "curse.maven:bookshelf-228525:5423988" // {max 1.21.1}
     
-          modImplementation "curse.maven:cloth-config-348521:6669836" // 1.21.8
-          modImplementation "curse.maven:fabric-language-kotlin-308769:7143515" // 1.21.8
+          modImplementation "curse.maven:balm-531761:7087431" // 1.21.8
+          modImplementation "curse.maven:architectury-api-419699:6803290" // 1.21.8
       
     }
   update_files:

@@ -8,18 +8,8 @@ fabric-1.21.8:
                 includeGroup "curse.maven"
             }
         }
-       /* maven { url 'https://jitpack.io' }
-       * maven {
-       *     url "https://maven.terraformersmc.com/"
-       * }
-       * maven {
-       *     url "https://maven.shedaniel.me/"
-       * }
-       * maven {
-       *     url "https://maven.isxander.dev/releases"
-        } */
-    
        maven {
+            name = "Modrinth"
             url = "https://api.modrinth.com/maven"
         }
     }

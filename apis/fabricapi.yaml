@@ -1,0 +1,18 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+        maven {
+            url "https://cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    
+    dependencies {
+         modImplementation "curse.maven:fabric-api-306612:7228829" // 1.21.8
+    }
+  update_files:
+    - ~
+name: "Fabric API (Please Enable)"
