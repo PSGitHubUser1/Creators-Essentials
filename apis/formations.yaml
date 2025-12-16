@@ -11,8 +11,8 @@ fabric-1.21.8:
     }
     
     dependencies {
-      modImplementation "curse.maven:better-third-person-435044:6455829" // 1.21.8
+       modImplementation "curse.maven:formations-915115:6789363" // 1.21.8
     }
   update_files:
     - ~
-name: "Better Third Person"
+name: "Formations (Structure Library)"

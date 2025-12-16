@@ -1,0 +1,20 @@
+# ---
+# fabric-1.21.8:
+#   gradle: |
+#     repositories {
+#         maven {
+#             url "https://cursemaven.com"
+#             content {
+#                 includeGroup "curse.maven"
+#             }
+#         }
+#     }
+    
+#     dependencies {
+#          modImplementation "curse.maven:supermartijn642s-config-lib-438332:5546988"  // 1.21.8
+#          modImplementation "curse.maven:supermartijn642s-core-lib-454372:6863130"  // 1.21.8
+         
+#     }
+#   update_files:
+#     - ~
+# name: "Supermartijn642's (Config,Core) Libs"

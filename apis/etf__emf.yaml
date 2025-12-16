@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -11,8 +11,8 @@ fabric-1.20.1:
     }
     
     dependencies {
-       modImplementation "curse.maven:entity-model-features-844662:5722714" // Updated to latest version
-       modImplementation "curse.maven:entity-texture-features-fabric-568563:5715830" // Updated to latest version
+       modImplementation "curse.maven:entity-model-features-844662:7260349" // 1.21.8
+       modImplementation "curse.maven:entity-texture-features-fabric-568563:7249569" // 1.21.8
     }
   update_files:
     - ~

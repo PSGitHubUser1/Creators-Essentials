@@ -1,11 +1,11 @@
 {
   "id": "creators_essentials",
-  "weight": 30,
-  "minversion": 202300451120,
-  "maxversion": 202400199999,
+  "weight": 50,
+  "minversion": 202500345720,
+  "maxversion": 202500399999,
   "info": {
     "name": "Creator's Essentials",
-    "version": "1.0a",
+    "version": "1.1",
     "description": "A plugin for users of MCreator (Fabric)",
     "author": "Infoy or PSGitHubUser1",
     "credits": "Made with MCreator plugin builder by NerdyPuzzle"

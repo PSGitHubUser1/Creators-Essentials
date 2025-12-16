@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -26,18 +26,12 @@ fabric-1.20.1:
     
     dependencies {
     
-        modLocalRuntime "curse.maven:sodium-394468:5485654"  // Updated to latest version
-    
-        modImplementation "maven.modrinth:uXXizFIs:unerR5MN" // Same for now until I know what mod is it
-    
-        modImplementation "curse.maven:lithium-360438:4765724" // Updated to latest version
-    
-        modLocalRuntime "curse.maven:lazydfu-433518:3821870" // Same as original version
-    
-       // modApi "curse.maven:entityculling-448233:5672090"
-    
-        modImplementation "curse.maven:starlight-521783:4572096" // Same as original version
+        modLocalRuntime "curse.maven:sodium-394468:7207587"  // 1.21.8
+        modImplementation "maven.modrinth:uXXizFIs:CtMpt7Jr" // 1.21.8, FerriteCore
+        modImplementation "curse.maven:lithium-360438:7047230" // 1.21.8
+
+        // modLocalRuntime "curse.maven:lazydfu-433518:3821870" // Same as original version
     }
   update_files:
     - ~
-name: "PerfMods"
+name: "Performance Mods"

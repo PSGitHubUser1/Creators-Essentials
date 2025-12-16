@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -11,7 +11,7 @@ fabric-1.20.1:
     }
     
     dependencies {
-         modImplementation "curse.maven:clumps-256717:5278537" // Updated to latest version
+         modImplementation "curse.maven:clumps-256717:6805185" // 1.21.8
     }
   update_files:
     - ~

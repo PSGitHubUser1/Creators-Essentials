@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -11,8 +11,8 @@ fabric-1.20.1:
     }
     
     dependencies {
-        modImplementation "curse.maven:wthit-440979:5721800" // Updated to latest version
-        modImplementation "curse.maven:badpackets-615134:4784394" // Updated to latest version
+        modImplementation "curse.maven:wthit-440979:7066579" // 1.21.8
+        modImplementation "curse.maven:badpackets-615134:6671479" // 1.21.8
     }
   update_files:
     - ~

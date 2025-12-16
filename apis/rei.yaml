@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -11,8 +11,8 @@ fabric-1.20.1:
     }
     
     dependencies {
-         modImplementation "curse.maven:indium-459496:5493195"  // Updated to latest version
+       modImplementation "curse.maven:roughly-enough-items-310111:6833148" // 1.21.8
     }
   update_files:
     - ~
-name: "Indium (Required for most mods)"
+name: "REI"

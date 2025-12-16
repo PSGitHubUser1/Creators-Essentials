@@ -1,5 +1,5 @@
 ---
-fabric-1.20.1:
+fabric-1.21.8:
   gradle: |
     repositories {
         maven {
@@ -11,7 +11,7 @@ fabric-1.20.1:
     }
     
     dependencies {
-       modImplementation "curse.maven:enchantment-descriptions-250419:5598370" // Updated to latest version
+       modImplementation "curse.maven:enchantment-descriptions-250419:7037179" // 1.21.8
     }
   update_files:
     - ~
