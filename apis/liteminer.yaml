@@ -2,26 +2,19 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
-        maven {
-            name = "Modrinth"
-            url = "https://api.modrinth.com/maven"
-        }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
     }
-    
+
     dependencies {
-        modImplementation "curse.maven:liteminer-1133225:6788263" // 1.21.8
+      modImplementation "curse.maven:liteminer-1133225:6788263" // 1.21.8
 
-        // Libs
-        modImplementation "curse.maven:amber-lib-1139910:6788163" // 1.21.8
-        modImplementation "curse.maven:architectury-api-419699:6803290" // 1.21.8
-        modImplementation "maven.modrinth:ohNO6lps:YbUUjWdw" // 1.21.8, Forge Config API Port
-
+      // Libs
+      modImplementation "curse.maven:amber-lib-1139910:6788163" // 1.21.8
     }
   update_files:
     - ~

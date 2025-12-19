@@ -2,17 +2,17 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
     }
-    
+
     dependencies {
-         modImplementation "curse.maven:prickle-1023259:7027110" // 1.21.8
+      modImplementation "curse.maven:prickle-1023259:7027110" // 1.21.8
     }
   update_files:
     - ~
-name: "Prickle Lib"
+name: "PrickleLib"

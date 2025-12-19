@@ -2,17 +2,17 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
     }
-    
+
     dependencies {
-        modImplementation "curse.maven:wthit-440979:7066579" // 1.21.8
-        modImplementation "curse.maven:badpackets-615134:6671479" // 1.21.8
+      modImplementation "curse.maven:whit-440979:7066579" // 1.21.8
+      modImplementation "curse.maven:badpackets-615134:6671479" // 1.21.8
     }
   update_files:
     - ~

@@ -1,0 +1,15 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+      maven { url "https://api.modrinth.com/maven" }
+      mavenCentral()
+    }
+    dependencies {
+      modImplementation "maven.modrinth:forge-config-api-port:v21.8.2-1.21.8-Fabric"
+      modImplementation "com.electronwill.night-config:core:3.8.3"
+      modImplementation "com.electronwill.night-config:toml:3.8.3"
+    }
+  update_files:
+    - ~
+name: "ForgeConfigAPI (Liteminer dep)"

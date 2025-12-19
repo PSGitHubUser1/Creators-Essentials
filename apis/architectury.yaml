@@ -1,0 +1,18 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+      maven {
+        url = "https://api.modrinth.com/maven"
+        content { includeGroup "maven.modrinth" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
+    }
+
+    dependencies {
+      modImplementation "maven.modrinth:architectury-api:17.0.8+fabric"
+    }
+  update_files:
+    - ~
+name: "Architectury API (REI, Liteminer dep)"

@@ -2,16 +2,17 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
     }
-    
+
     dependencies {
-       modImplementation "curse.maven:formations-915115:6789363" // 1.21.8
+      modImplementation "curse.maven:formations-915115:6789363" // 1.21.8
+      modImplementation "curse.maven:supermartijn642s-core-lib-454372:6863130" // 1.21.8
     }
   update_files:
     - ~

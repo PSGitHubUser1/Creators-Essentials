@@ -2,16 +2,17 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url "https://maven.shedaniel.me/" }
+      mavenCentral()
     }
-    
+
     dependencies {
-        modImplementation "curse.maven:appleskin-248787:6680816" // 1.21.8
+      modImplementation "curse.maven:appleskin-248787:6680816" // 1.21.8
+      modImplementation("me.shedaniel.autoconfig:autoconfig1u:5.0.5")
     }
   update_files:
     - ~

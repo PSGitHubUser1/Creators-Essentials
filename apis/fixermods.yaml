@@ -2,39 +2,25 @@
 fabric-1.21.8:
   gradle: |
     repositories {
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
-        maven {
-                 name = "Modrinth"
-                 url = "https://api.modrinth.com/maven"
-        }
-      
+      maven {
+        url = "https://api.modrinth.com/maven"
+        content { includeGroup "maven.modrinth" }
+      }
+      maven {
+        url = "https://cursemaven.com"
+        content { includeGroup "curse.maven" }
+      }
+      maven { url = "https://maven.fabricmc.net" }
+      mavenCentral()
     }
-    
-    dependencies {
-    
-        // modImplementation "curse.maven:tooltipfix-411557:4577194"
-        // modImplementation "curse.maven:modernfix-790626:5077297"
-        // modImplementation "curse.maven:level-text-fix-840817:4714762"
-        // modImplementation "curse.maven:anvilfixreborn-814868:5075909"
-        // modImplementation "curse.maven:ugly-scoreboard-fix-402437:4619536"
-        // modImplementation "curse.maven:fixcontainerslotexploit-934170:4940868"
-        // modImplementation "curse.maven:geckoanimfix-959388:5015554"    
-        // modImplementation "com.github.Lortseam.completeconfig:base:2.5.0"
 
-        modImplementation "curse.maven:attributefix-280510:7084303" // 1.21.8
-        modImplementation "curse.maven:packet-fixer-689467:7221528" // 1.21.8
-        modImplementation "maven.modrinth:QdG47OkI:WcDxGReS" // 1.21.8, ModelGapFix
-        modImplementation "maven.modrinth:1V8GQzdO:5mNesGn9" // 1.21.8, MaxHealthFix
-        modImplementation "maven.modrinth:3Vf97jLY:UaCKRkLf" // 1.21.8, CursorCenteredFix
-        modImplementation "maven.modrinth:SQKipbkd:XziUtBSr" // 1.21.8, FixMCStats
-        modImplementation "maven.modrinth:pKlCsfkH:PTynJvje" // 1.21.8, Universal Shortcuts 1.3.9
-        
+    dependencies {
+      modCompileOnly "curse.maven:attributefix-280510:7084303" // 1.21.8
+      modLocalRuntime "curse.maven:attributefix-280510:7084303" // 1.21.8
+
+      modCompileOnly "curse.maven:packet-fixer-689467:7221528" // 1.21.8
+      modLocalRuntime "curse.maven:packet-fixer-689467:7221528" // 1.21.8
     }
   update_files:
     - ~
-name: "FixerMods"
+name: "Fixer Mods (Completely Optional)"
