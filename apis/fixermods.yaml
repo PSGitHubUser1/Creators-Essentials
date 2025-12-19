@@ -3,10 +3,6 @@ fabric-1.21.8:
   gradle: |
     repositories {
       maven {
-        url = "https://api.modrinth.com/maven"
-        content { includeGroup "maven.modrinth" }
-      }
-      maven {
         url = "https://cursemaven.com"
         content { includeGroup "curse.maven" }
       }

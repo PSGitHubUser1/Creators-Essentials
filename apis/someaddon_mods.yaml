@@ -8,10 +8,10 @@ fabric-1.21.8:
       }
       mavenCentral()
     }
-
     dependencies {
-      modImplementation "curse.maven:huge-structure-blocks-474114:7061792" // 1.21.8
+     modLocalRuntime "curse.maven:fast-async-world-save-forge-fabric-951499:6868472" // 1.21.8
+     modImplementation "curse.maven:cupboard-326652:6836467" // 1.21.8
     }
   update_files:
     - ~
-name: "Huge Structure Blocks"
+name: "Someaddon Mods"

@@ -1,0 +1,16 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+      maven { url "https://api.modrinth.com/maven" }
+      maven { url "https://repo.enginehub.org/artifactory/libs-release/" }
+      mavenCentral()
+    }
+
+    dependencies {
+      modLocalRuntime "maven.modrinth:worldedit:7.3.16"
+      modLocalRuntime "org.enginehub.worldeditcui-protocol:worldeditcui-protocol-fabric-mc1.21.8:4.0.2"
+    }
+  update_files:
+    - ~
+name: "WorldEdit"

@@ -10,8 +10,8 @@ fabric-1.21.8:
     }
 
     dependencies {
-      modImplementation "curse.maven:huge-structure-blocks-474114:7061792" // 1.21.8
+      modImplementation "curse.maven:mouse-tweaks-60089:6665313" // 1.21.8
     }
   update_files:
     - ~
-name: "Huge Structure Blocks"
+name: "Mouse Tweaks"

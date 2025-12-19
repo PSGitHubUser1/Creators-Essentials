@@ -21,8 +21,6 @@ fabric-1.21.8:
         // modImplementation "maven.modrinth:rIQr6J6I:mZOTSAYm" // 1.21.8, Super Fast Math
         modImplementation "curse.maven:lithium-360438:7047230" // 1.21.8
         modImplementation "curse.maven:clumps-256717:6805185" // 1.21.8
-
-        // modLocalRuntime "curse.maven:lazydfu-433518:3821870" // Same as original version
     }
   update_files:
     - ~

@@ -10,8 +10,8 @@ fabric-1.21.8:
     }
 
     dependencies {
-      modImplementation "curse.maven:huge-structure-blocks-474114:7061792" // 1.21.8
+      modImplementation "curse.maven:yacl-667299:7305638" // 1.21.8
     }
   update_files:
     - ~
-name: "Huge Structure Blocks"
+name: "YACL Lib"
