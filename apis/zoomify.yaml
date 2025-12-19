@@ -3,14 +3,15 @@ fabric-1.21.8:
   gradle: |
     repositories {
       maven {
-        url = "https://cursemaven.com"
-        content { includeGroup "curse.maven" }
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
       }
       mavenCentral()
     }
 
     dependencies {
-      modImplementation "curse.maven:zoomify-574741:7049944" // 1.21.8
+      modImplementation "maven.modrinth:Ha28R6CL:N6D3uiZF" // 1.21.8, Fabric Kotlin
+      modImplementation "maven.modrinth:w7ThoJFB:qMqviL3t" // 1.21.8, Zoomify
     }
   update_files:
     - ~
