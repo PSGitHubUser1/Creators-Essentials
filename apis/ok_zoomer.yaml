@@ -8,11 +8,10 @@ fabric-1.21.8:
       }
       mavenCentral()
     }
-
+    
     dependencies {
-      modImplementation "maven.modrinth:Ha28R6CL:N6D3uiZF" // 1.21.8, Fabric Kotlin
-      modImplementation "maven.modrinth:w7ThoJFB:qMqviL3t" // 1.21.8, Zoomify
+      modImplementation "maven.modrinth:aXf2OSFU:Zc1RUWpc" // 1.21.8, OK Zoomer
     }
   update_files:
     - ~
-name: "Zoomify"
+name: "OK Zoomer"
