@@ -10,8 +10,9 @@ fabric-1.21.8:
     }
     
     dependencies {
-      modImplementation "maven.modrinth:aXf2OSFU:Zc1RUWpc" // 1.21.8, OK Zoomer
+      modImplementation "maven.modrinth:J81TRJWm:ua0GnQ25" // 1.21.8, konkrete
+      modImplementation "maven.modrinth:iAiqcykM:N5YpomrV" // 1.21.8, Just Zoom
     }
   update_files:
     - ~
-name: "OK Zoomer"
+name: "Just Zoom"
