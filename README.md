@@ -1,28 +1,53 @@
-## All Mods in this Plugin (1.21.8)
-  - Architectury API (Liteminer dep)
-  - Balm Lib
+ ## All Mods in this API
+
+  - AppleSkin
+  - Better Third Person
+  - Clumps
+  - JEI
+  - EMI (JEI Required)
+  - Entity Texture Features & Entity Model Features
   - Enchantment Descriptions
-  - ETF & EMF
-  - Fabric API (Of course)
-  - FixerMods
-     - AttributeFix
-     - PacketFixer
-  - ForgeConfigAPI
-  - Formations (Structure Lib)
   - Fusion
-  - Huge Structure Blocks 
-  - Just Zoom
-  - Liteminer (+AmberLib)
+  - Indium
+  - LambDynamicLights
   - Mod Menu
   - Mouse Tweaks
-  - PerfMods
-      - Sodium (YES!!)
-      - FerriteCore
-      - Lithium
-      - Clumps
-  - PrickleLib
-  - Someaddon Mods
-      - FastAsyncWorldSave
-      - Cupboard
-  - WorldEdit (YES!!)
   - WTHIT
+  - APIMods
+     - GeckoLib
+     - Bookshelf
+     - Cloth Config
+     - Fabric Kotlin Language
+  - FixerMods (Not updated as of now, v1.0a)
+     - TooltipFix
+     - ModernFix
+     - AttributeFix
+     - Model Gap Fix
+     - Max Health Fix
+     - Level Text Fix
+     - Anvil Fix Reborn
+     - Bow Infinity Fix
+     - Ugly Scoreboard Fix
+     - FixContainersLotExploit
+     - GeckoAnimFix
+     - Complete Config
+     - Memory Leak Fix [Just imported it by 'modCompileOnly']
+
+  - PerfMods
+     - Sodium
+     - FerriteCore
+     - Lithium
+     - LazyDFU
+     - Starlight
+  - Someaddon Mods
+     -  Structure Essentials
+     -  Better FPS
+     -  Better Chunk Loading
+     -  Fast Async World
+     -  Loot Integrations
+     -  Cupboard (Its a Lib)
+
+   
+
+
+    <!-- https://mcreator.net/plugin/104511/creators-essentials-api -->
