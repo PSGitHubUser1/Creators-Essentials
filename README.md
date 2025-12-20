@@ -1,20 +1,28 @@
-## All Mods in this API
-  - Architecture
-  - BALM
+## All Mods in this Plugin (1.21.8)
+  - Architectury API (Liteminer dep)
+  - Balm Lib
   - Enchantment Descriptions
   - ETF & EMF
-  - Fabric API
+  - Fabric API (Of course)
   - FixerMods
-  - ForgeConfig API
-  - Formations
+     - AttributeFix
+     - PacketFixer
+  - ForgeConfigAPI
+  - Formations (Structure Lib)
   - Fusion
-  - HSB
+  - Huge Structure Blocks 
   - Just Zoom
-  - LiteMiner
+  - Liteminer (+AmberLib)
   - Mod Menu
   - Mouse Tweaks
   - PerfMods
-  - Prickle
-  - SomeAddon Mods
-  - World Edit
+      - Sodium (YES!!)
+      - FerriteCore
+      - Lithium
+      - Clumps
+  - PrickleLib
+  - Someaddon Mods
+      - FastAsyncWorldSave
+      - Cupboard
+  - WorldEdit (YES!!)
   - WTHIT
