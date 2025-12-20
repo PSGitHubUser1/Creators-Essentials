@@ -14,4 +14,4 @@ fabric-1.21.8:
     }
   update_files:
     - ~
-name: "Architectury API (REI, Liteminer dep)"
+name: "Architectury API (Liteminer dep)"
