@@ -1,0 +1,17 @@
+---
+fabric-1.21.8:
+  gradle: |
+    repositories {
+       maven {
+            name = "Modrinth"
+            url = "https://api.modrinth.com/maven"
+        }
+    mavenCentral()
+    }
+    
+    dependencies {
+        modImplementation "maven.modrinth:oZfUinyu:pHs5KG2O" // 1.21.8, Inspectability
+    }
+  update_files:
+    - ~
+name: "Inspectability"

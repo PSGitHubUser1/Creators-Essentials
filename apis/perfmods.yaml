@@ -18,9 +18,13 @@ fabric-1.21.8:
     
         modLocalRuntime "curse.maven:sodium-394468:7207587"  // 1.21.8
         modImplementation "maven.modrinth:uXXizFIs:CtMpt7Jr" // 1.21.8, FerriteCore
-        // modImplementation "maven.modrinth:rIQr6J6I:mZOTSAYm" // 1.21.8, Super Fast Math
+        modImplementation "maven.modrinth:5ZwdcRci:49MPhz8k" // 1.21.8, ImmediatelyFast
+        modImplementation "maven.modrinth:Bh37bMuy:AgGRyydH" // 1.21.8, Reese's Sodium Options
+        modImplementation "maven.modrinth:oZfUinyu:pHs5KG2O" // 1.21.8, Inspectability
         modImplementation "curse.maven:lithium-360438:7047230" // 1.21.8
         modImplementation "curse.maven:clumps-256717:6805185" // 1.21.8
+
+        // modImplementation "maven.modrinth:rIQr6J6I:mZOTSAYm" // 1.21.8, Super Fast Math
     }
   update_files:
     - ~
