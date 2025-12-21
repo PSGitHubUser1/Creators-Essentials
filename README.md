@@ -12,7 +12,7 @@
   - Fusion
   - Huge Structure Blocks 
   - Just Zoom
-  - Inspectability (1.3)
+  - Inspectability > (v1.3)
   - Liteminer (+AmberLib)
   - Mod Menu
   - Mouse Tweaks
@@ -21,8 +21,8 @@
       - FerriteCore
       - Lithium
       - Clumps
-      - Reese's Sodium Options (1.3)
-      - ImmediatelyFast (1.3)
+      - Reese's Sodium Options > (v1.3)
+      - ImmediatelyFast > (v1.3)
   - PrickleLib
   - Someaddon Mods
       - FastAsyncWorldSave
